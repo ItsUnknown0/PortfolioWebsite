@@ -109,3 +109,13 @@ h2,h3,p {
     text-align: right;
     width: 60%;
 }
+
+/*Events and stuff*/
+
+a {
+    color: paleturquoise;
+}
+
+a:hover{
+    color: aliceblue;
+}
