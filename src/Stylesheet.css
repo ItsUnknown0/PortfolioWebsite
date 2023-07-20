@@ -17,6 +17,13 @@ h2,h3,p,figcaption {
     color: honeydew;
 }
 
+.FancyStuff {
+    font-family: cursive;
+    text-align: center;
+    font-size: small;
+    color: rgb(41, 41, 41);
+}
+
 .SectionName {
     margin-left: 10%;
 }
@@ -28,27 +35,26 @@ h2,h3,p,figcaption {
     justify-content:center;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
-
-    ::-webkit-scrollbar {
-        width: 5px;
-    }
-    
-    ::-webkit-scrollbar-track {
-        margin-block: .5em;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background: rgb(76, 93, 104);
-        border-radius: 25px;
-    }
-    
+    align-content: center; 
 }
 
 .FrameTitle {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+}
+
+.CuteFrameIcons {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.CutePriceIcons {
+    width: 15px;
+    height: 15px;
 }
 
 .AboutMe {
@@ -59,7 +65,7 @@ h2,h3,p,figcaption {
     padding-right: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
-    max-width: 600px;
+    max-width: 400px;
     margin-top: 30px;
 
     margin-right: 20px;
@@ -74,7 +80,7 @@ h2,h3,p,figcaption {
     padding-right: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
-    max-width: 600px;
+    max-width: 400px;
     margin-top: 30px;
 
     margin-right: 20px;
@@ -83,7 +89,7 @@ h2,h3,p,figcaption {
 
 .Past-Works {
     width:65%;
-    background-color: rgba(240, 255, 255, 0.13);
+    background-color: rgba(26, 68, 206, 0.13);
     border-radius: 25px;
     padding-left: 25px;
     padding-right: 25px;
@@ -106,7 +112,7 @@ h2,h3,p,figcaption {
     padding-right: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
-    max-width: 600px;
+    max-width: 400px;
 
     margin-top: 30px;
     margin-right: 20px;
@@ -114,7 +120,7 @@ h2,h3,p,figcaption {
 }
 
 .Contact-Info {
-    background-color: rgba(240, 255, 255, 0.13);
+    background-color: rgba(109, 95, 172, 0.13);
     border-radius: 25px;
     padding-left: 50px;
     padding-right: 50px;
@@ -123,6 +129,7 @@ h2,h3,p,figcaption {
     max-width: 500px;
     max-height: 300px;
     width: 50%;
+    text-align: center;
 
     margin-top: 30px;
     margin-right: 20px;
@@ -169,4 +176,17 @@ a {
 
 a:hover{
     color: aliceblue;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    margin-block: .55em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(76, 93, 104);
+    border-radius: 25px;
 }
